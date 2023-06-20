@@ -1,0 +1,71 @@
+in selenium we have two methods
+
+
+Sendkeys()--- writing something inside into the text box
+click()-- need to click on button and link
+
+we can identify with the help of locators
+
+id
+name
+
+xpath
+css
+linktext
+classname
+
+
+https://demo.guru99.com/test/newtours/register.php
+
+
+Xpath :- Locator
+
+purple color - Tag Name
+Red Color - Attribute
+Blue Color - Value
+Black Color  _text
+
+
+
+1-  //tagname[@Attribute='value']
+
+
+
+//textarea[@title='Search']
+
+2 - //tagname[text()='Text value']
+
+//button[text()='✕']
+
+//a[text()='Store']
+
+
+//a[text()='Today's Deals']
+
+Contains - Searching any of the word
+
+3 - //tagname[contains(text(),'Search value')]
+
+//a[contains(text(),'Deals')]
+
+
+https://demo.guru99.com/test/simple_context_menu.html  ====for double click
+
+
+// For Loop
+for var in sel.options:
+
+    print(var.text())
+
+https://demo.guru99.com/test/newtours/register.php
+
+
+
+PyTest - is a Unit testing Framework -
+
+Unit Testing by perform by developer - that one is also called as a Code Base Testing
+
+Definatality it would be python file - but the rule is Test name should be there in file
+
+
+PS C:\Users\singh\OneDrive\Desktop\pythonProject4> python.exe -m pytest
