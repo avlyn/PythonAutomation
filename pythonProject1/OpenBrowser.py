@@ -1,7 +1,7 @@
 from selenium import webdriver
 from time import sleep
 from selenium.webdriver.common.by import By
-
+####Landing page on Chrome
 driver = webdriver.Chrome('./chromedriver')
 driver.get("https://demo.guru99.com/test/newtours/register.php")
 driver.maximize_window()
