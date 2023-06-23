@@ -15,7 +15,7 @@ dropdown = driver.find_element(By.XPATH,"//select[@aria-describedby='searchDropd
 
 sel = Select(dropdown)
 
-##sel.options;  ## they are filtering all options value along with tag name attribute an dtext
+##sel.optionssssssss;  ## they are filtering all options value along with tag name attribute an dtext
 
 for opt in sel.options:
     opt.click()
