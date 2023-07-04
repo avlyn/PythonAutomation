@@ -6,6 +6,7 @@ from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome('./chromedriver');
 driver.get("https://www.ebay.com/")
+##to maximize window
 driver.maximize_window()
 
 Elm = driver.find_element(By.XPATH,"(//a[text()='Electronics'])[2]")
