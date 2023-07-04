@@ -8,7 +8,7 @@ driver.maximize_window()
 print(driver.title)
 
 sleep(7)
-
+####678
 driver.find_element(By.NAME,"firstName").send_keys("Jesse")
 driver.find_element(By.NAME,"lastName").send_keys("Kour")
 driver.find_element(By.NAME,"phone").send_keys("1234567")
